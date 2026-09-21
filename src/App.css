@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+#root {
+  width: 100%;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.job-card {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.stats-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  min-width: 140px;
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.update-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.add-btn {
+  background-color: #673ab7;
+  color: white;
+}
+.stat-card {
+  flex: 1;
+  min-width: 140px;
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+
+  .stats-container {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+}
+
+.job-card {
+  transition: 0.3s;
+}
+
+.job-card:hover {
+  transform: translateY(-3px);
+}
+
+.applied {
+  color: orange;
+  font-weight: bold;
+}
+
+.interview {
+  color: blue;
+  font-weight: bold;
+}
+
+.selected {
+  color: green;
+  font-weight: bold;
+}
+
+.rejected {
+  color: red;
+  font-weight: bold;
+}
