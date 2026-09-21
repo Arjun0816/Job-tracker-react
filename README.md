@@ -1,16 +1,162 @@
-# React + Vite
+# 🚀 Job Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based Job Tracker Application that helps users manage and track job applications efficiently.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ➕ Add New Jobs
+- ✏️ Edit Existing Jobs
+- 🗑️ Delete Jobs
+- 🔍 Search Jobs by Company Name
+- 🎯 Filter Jobs by Status
+- 📊 Dashboard Statistics
+- 💾 Local Storage Support
+- 📱 Responsive Design
+- 🎨 Modern UI with CSS
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Application Features
 
-## Expanding the ESLint configuration
+### Dashboard
+- Total Jobs Count
+- Applied Jobs Count
+- Interview Jobs Count
+- Selected Jobs Count
+- Rejected Jobs Count
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Job Management
+- Add Job Applications
+- Edit Company Names
+- Delete Applications
+- Track Application Status
+
+### Search & Filter
+- Search by Company Name
+- Filter by:
+  - Applied
+  - Interview
+  - Selected
+  - Rejected
+
+### Data Persistence
+- Local Storage Integration
+- Data remains available after browser refresh
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- Vite
+
+### React Concepts Used
+- Functional Components
+- Props
+- useState Hook
+- useEffect Hook
+- Conditional Rendering
+- Component Reusability
+- Event Handling
+- Local Storage API
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+│
+├── components
+│   ├── SearchBar.jsx
+│   ├── JobForm.jsx
+│   ├── JobList.jsx
+│   └── JobCard.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+### Navigate to Project
+
+```bash
+cd job-tracker-react
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+### Live Demo
+
+Add your Vercel deployment link here:
+
+https://job-tracker-react-psi.vercel.app/
+
+## 🎯 Future Improvements
+
+- Django Backend Integration
+- PostgreSQL Database
+- User Authentication
+- Email Notifications
+- Resume Upload Feature
+- AI Resume Analyzer
+- Application Deadlines Tracking
+- Dark Mode
+
+---
+
+## 📚 Learning Outcomes
+
+This project helped me improve my understanding of:
+
+- React Component Architecture
+- State Management
+- Props Handling
+- CRUD Operations
+- Search & Filter Logic
+- Responsive Design
+- Local Storage
+- Git & GitHub Workflow
+- Vercel Deployment
+
+---
+
+## 👨‍💻 Author
+
+**Arjun Kumar**
+
+- GitHub: https://github.com/Arjun0816
+- LinkedIn: https://linkedin.com/in/arjunkumar08
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star ⭐ on GitHub.
